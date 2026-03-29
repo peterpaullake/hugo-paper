@@ -1,2 +1,8 @@
 /* Place custom css here. */
 @reference './app.css';
+
+/* Don't show backticks in monospace snippets. */
+code::before,
+code::after {
+  content: none !important;
+}
